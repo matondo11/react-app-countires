@@ -1,0 +1,43 @@
+.flag {
+    width:100%;
+    height: auto;
+}
+
+.country-card{
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    max-width: 100px;
+    display: flex;
+    flex-flow: column;
+   
+}
+
+.country-info{
+    padding-left: 20px;
+    h1{
+        font-size: 1.2em;
+        margin-bottom: 8px;
+    }
+}
+
+.country-card:hover {
+    transform: scale(1.05);
+}
+.country-info {
+    padding: 16px;
+}
+
+.country-name {
+    font-size: 1.5em;
+    margin-bottom: 8px;
+}
+
+.country-population,
+.country-region,
+.country-capital {
+    margin: 4px 0;
+}
+
